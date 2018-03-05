@@ -5,6 +5,7 @@ spring:
     active: native
   cloud:
     config:
+      allowOverride: true
       server:
         native:
           searchLocations: classpath:config/,classpath:config/eureka-service,classpath:config/zuul-service
